@@ -89,4 +89,6 @@ const deleteContactBYid= async(req,res) =>{
     }
 };
 
+
+
 module.exports = {getAllUser, getAllContact, deleteUserBYid,getUserById, updateUserById,deleteContactBYid};

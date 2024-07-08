@@ -15,13 +15,8 @@ const errorMiddlewear = require("./middlewares/errer_middlewear");
 // lets trakles cors 
 const corsOptions = {
     origin: [
-<<<<<<< HEAD
         'https://innovators-mu.vercel.app',
-         'https://innovators-rajendra-rauta-rajendra-rautas-projects.vercel.app',
-         'https://innovators-rajendra-rautas-projects.vercel.app/'],
-=======
-        'https://innovaterslabs-kj0mr0hrl-rajendra-rautas-projects.vercel.app'],
->>>>>>> 3a2b14bcc7db71e2e601841f729566299bebb565
+         'https://innovators-rajendra-rauta-rajendra-rautas-projects.vercel.app','https://innovators-rajendra-rautas-projects.vercel.app/'],
    methods :"GET, POST ,DELETE,PATCH,HEAD",
    Credentials:true,
 
@@ -38,7 +33,7 @@ app.use("/api/data", service_route);
 // lets define admin route 
 app.use("/api/admin", admin_route);
 
-// errer errorMiddlewear   
+// errer errorMiddlewear 
 app.use(errorMiddlewear);
  
 // mongodb

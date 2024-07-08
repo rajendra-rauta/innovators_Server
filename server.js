@@ -15,7 +15,9 @@ const errorMiddlewear = require("./middlewares/errer_middlewear");
 // lets trakles cors 
 const corsOptions = {
     origin: [
-        'https://innovaterslabs-kj0mr0hrl-rajendra-rautas-projects.vercel.app'],
+        'https://innovators-mu.vercel.app',
+         'https://innovators-rajendra-rauta-rajendra-rautas-projects.vercel.app',
+         'https://innovators-rajendra-rautas-projects.vercel.app/'],
    methods :"GET, POST ,DELETE,PATCH,HEAD",
    Credentials:true,
 

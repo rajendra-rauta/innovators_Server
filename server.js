@@ -31,7 +31,7 @@ app.use("/api/data", service_route);
 // lets define admin route 
 app.use("/api/admin", admin_route);
 
-// errer errorMiddlewear 
+// errer errorMiddlewear   
 app.use(errorMiddlewear);
  
 // mongodb

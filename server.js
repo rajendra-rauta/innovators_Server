@@ -12,14 +12,19 @@ const errorMiddlewear = require("./middlewares/errer_middlewear");
 
 
 
-// lets trakles cors 
+// // lets trakles cors 
 const corsOptions = {
     origin: [
-        'https://innovaterslabs-kj0mr0hrl-rajendra-rautas-projects.vercel.app'],
+        //'https://innovaterslabs-kj0mr0hrl-rajendra-rautas-projects.vercel.app'],
+        'http://localhost:8000/'],
    methods :"GET, POST ,DELETE,PATCH,HEAD",
    Credentials:true,
-
 };
+
+
+
+
+ //const.api= "http://localhost:8000/"
 app.use(cors(corsOptions));
 // middlewear
 app.use(express.json());
@@ -49,4 +54,5 @@ connectDb().then(()=>{
 
 
   
+
  

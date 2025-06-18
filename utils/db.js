@@ -12,8 +12,8 @@ const connectDb = async () => {
     } catch (error) {
 
         console.error("detabase connection error");
-        
-       
+
+
 
         process.exit(0);
 

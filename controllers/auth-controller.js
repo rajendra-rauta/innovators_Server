@@ -45,7 +45,7 @@ const login = async (req, res) => {
     console.log(userExist);
 
     if (!userExist) {
-      return res.status(400).json({ message: "Invalid creadintial  " });
+      return res.status(400).json({ message: "Invalid credential  " });
     }
 
     //   const user = await bcrypt.compare(password, userExist.password);
